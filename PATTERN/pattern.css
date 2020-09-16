@@ -1,0 +1,29 @@
+.jumbotron {
+	background: url(kutup.jpg);
+	background-repeat: none-repeat;
+	background-size: cover;
+	font-family: Kumbh Sans;
+}
+
+
+
+html {
+	height: 100%;
+}
+
+a {
+	font-family: Kumbh Sans;
+
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.col-sm-4 {
+	font-size: 15px;
+}
+
+h5 {
+	font-size: 20px;
+}

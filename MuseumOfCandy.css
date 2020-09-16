@@ -1,0 +1,65 @@
+.navbar-dark .navbar-brand {
+	color: red;
+	font-size: 30px;
+}
+
+.navbar-toggler.custom-toggler {
+  border-color: black;
+} 
+
+li {
+	font-size: 24px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #f5d9d5;
+	font-family: Nunito Sans;
+}
+
+
+
+.content span {
+	color: red;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 36px;
+	color: red;
+}
+
+.yazıiki {
+	font-size: 17px;
+	color: rgb(255, 145, 145);
+	line-height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: red;
+}
+
+.content {
+	font-size: 30px;
+	font-weight: 100;
+}
+
+@media (max-width: 1000px){
+	.content {
+	font-size: 20px;
+	font-weight: 100;
+}
+}
+
+.mainContent {
+	margin-bottom: 100px;
+}
+
+

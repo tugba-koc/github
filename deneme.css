@@ -1,0 +1,160 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.row a {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+}
+
+.row a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+close:hover {
+  color: white;
+  background-color: white;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 732px) {
+  nav.navbar.navbar-light {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 732px) {
+  nav.navbar.navbar-light {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+i.fas.fa-bars {
+  font-size: 30px;
+}
+
+i.fas.fa-barcode {
+  font-size: 30px;
+  color: blue;
+}
+
+img {
+  display: none;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* .row {
+  width: 50%;
+} */
+
+/* HOMEPAGE PartOne */
+
+p.test {
+  margin-top: 18%;
+  margin-left: 12.5%;
+}
+
+p.partOne {
+  margin-top: 18%;
+  margin-left: 40%;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 27%;
+}
+
+p.partTwo {
+  margin-top: 20%;
+  margin-left: 40%;
+  font-size: 20px;
+  width: 50%;
+  margin-bottom: 24%;
+}
+
+p.partTwo span {
+  margin-top: 15%;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 18%;
+}
+
+/*  */
+
+p.partThree {
+  margin-top: 21%;
+  margin-left: 40%;
+  font-size: 20px;
+  width: 50%;
+  margin-bottom: 24%;
+}
+
+p.partThree span {
+  margin-top: 15%;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.row p a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.row p a:hover {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+@media (max-width: 920px) {
+  p.partOne {
+    font-size: 25px;
+    margin-left: 14.5%;
+  }
+  p.partTwo span {
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  p.partTwo {
+    font-size: 15px;
+    margin-left: 14.5%;
+  }
+  p.partThree span {
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  p.partThree {
+    font-size: 15px;
+    margin-left: 14.5%;
+  }
+  nav.navbar.navbar-light {
+    background-color: white;
+  }
+  p span.menu {
+    display: none;
+  }
+}

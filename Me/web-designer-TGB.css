@@ -1,0 +1,369 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("white.jpg");
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 80%;
+  background-color: rgb(0, 0, 255);
+}
+
+nav.navbar .navbar-nav .nav-item .nav-link,
+nav.navbar a.navbar-brand {
+  color: white;
+  font-weight: 600;
+}
+
+/* HEADER */
+
+@media (min-width: 992px) {
+  article.yapılanIsler p.header,
+  article.yorumlar p.header {
+    margin-left: 5%;
+    writing-mode: vertical-lr;
+    float: left;
+    padding-top: 23%;
+    color: rgb(0, 0, 255);
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  article.hakkımda p.header {
+    margin-left: 5%;
+    writing-mode: vertical-lr;
+    float: left;
+    padding-top: 15%;
+    color: rgb(0, 0, 255);
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  article.hakkımda p.header,
+  article.yapılanIsler p.header,
+  article.yorumlar p.header {
+    margin-left: 10%;
+    padding-top: 20%;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  article.iletisim p.header {
+    margin-left: 5%;
+    writing-mode: vertical-lr;
+    float: left;
+    padding-top: 18%;
+    color: rgb(0, 0, 255);
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 20%;
+  }
+}
+
+@media (max-width: 992px) {
+  article.iletisim p.header {
+    margin-left: 10%;
+    padding-top: 18%;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 0%;
+  }
+}
+
+/* HEADER SONU */
+
+/* DESCRIPTION BASLANGICI */
+
+@media (min-width: 992px) {
+  form {
+    width: 29.3%;
+  }
+}
+
+@media (max-width: 992px) {
+  form {
+    width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  article.hakkımda p.description {
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 12%;
+    margin-bottom: 0;
+    padding-bottom: 13%;
+  }
+}
+
+@media (max-width: 992px) {
+  article.hakkımda p.description {
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 0%;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  article.yorumlar .description {
+    margin-left: 10%;
+    padding-top: 12%;
+    padding-bottom: 18%;
+  }
+}
+
+@media (max-width: 992px) {
+  article.yorumlar .description {
+    width: 100%;
+    margin-left: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {
+  article.yorumlar input::placeholder {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  article.iletisim p.description {
+    margin-left: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+    padding-left: 2%;
+  }
+}
+
+@media (max-width: 992px) {
+  article.iletisim p.description {
+    margin-left: 12%;
+    padding-top: 0%;
+    padding-bottom: 10%;
+    padding-left: 0%;
+  }
+}
+
+@media (max-width: 992px) {
+  article.iletisim .row {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  article.yorumlar .description,
+  article.yorumlar .description .row {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  article.yorumlar .description .row {
+    width: 100%;
+  }
+}
+
+article.yorumlar .description .row {
+  margin-left: 0.5%;
+}
+
+@media (min-width: 992px) {
+  iframe {
+    margin-top: 10%;
+    margin-bottom: 12%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  iframe {
+    margin-top: 0%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  h1.description {
+    width: 60%;
+    margin-left: 10%;
+    padding-top: 18%;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 80px;
+    padding-bottom: 12%;
+  }
+}
+
+@media (max-width: 992px) {
+  h1.description {
+    width: 60%;
+    margin-left: 10%;
+    padding-top: 30%;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 992px) {
+  figure.description {
+    margin-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+}
+
+@media (max-width: 992px) {
+  figure.description {
+    margin-left: 9%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+}
+
+form {
+  background-color: rgba(0, 0, 255, 0.123);
+}
+
+/* ARKA PLAN IMAGE */
+
+article.giris:hover {
+  animation: kapak ease-in-out 10ms;
+  -webkit-animation: kapak ease-in-out 10ms;
+  -moz-animation: kapak ease 10ms;
+  -o-animation: kapak ease 10ms;
+  -ms-animation: kapak ease 10ms;
+  background-image: url("kapak.jpg");
+  max-height: 800px;
+  filter: grayscale(50%);
+  width: 100%;
+  margin-top: 0%;
+  padding-bottom: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: kapak 1s ease-in-out;
+  -moz-transition: kapak 1s ease-in-out;
+  -o-transition: kapak 1s ease-in-out;
+  transition: kapak 1s ease-in-out;
+  -webkit-animation: kapak 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes kapak {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 80% 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes kapak {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 80% 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+article.hakkımda:hover {
+  animation: hakkımda ease-in-out 10ms;
+  -webkit-animation: hakkımda ease-in-out 10ms;
+  -moz-animation: hakkımda ease-in-out 10ms;
+  -o-animation: hakkımda ease-in-out 10ms;
+  -ms-animation: hakkımda ease-in-out 10ms;
+  background-image: url("hakkımda.jpg");
+  max-height: 700px;
+  width: 100%;
+  margin-top: 0%;
+  padding-bottom: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: hakkımda 1s ease-in-out;
+  -moz-transition: hakkımda 1s ease-in-out;
+  -o-transition: hakkımda 1s ease-in-out;
+  transition: hakkımda 1s ease-in-out;
+  -webkit-animation: hakkımda 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes hakkımda {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 65% 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hakkımda {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 65% 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+article.yapılanIsler img {
+  max-width: 20%;
+  max-height: 250px;
+  filter: grayscale(100%);
+  margin-right: 3%;
+}
+
+article.yapılanIsler img:hover {
+  max-width: 20%;
+  max-height: 250px;
+  margin-right: 3%;
+  filter: grayscale(0%);
+}
